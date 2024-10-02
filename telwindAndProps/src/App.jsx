@@ -19,8 +19,8 @@ function App() {
   return (
     <>
     <div className='font-bold bg-orange-600'>
-    <h1>my name is mahesh</h1>
-    <Card username="Mahesh Rane" designation="Software Devloper, Pune" salary={count}/>
+    <h1>The Dash Board </h1>
+    <Card username="Mahesh Rane" designation="Software Enginear, Pune" salary={count}/>
     <div className='col-span-2'>
     <button className= 'bg-black text-white m-10 rounded-md p-3' onClick={increase}>Increase Salary</button>
     <button className= 'bg-black text-white m-10 rounded-md p-3' onClick={Decrease}>Decrease Salary</button>
